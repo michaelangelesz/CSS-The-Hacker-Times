@@ -25,7 +25,7 @@ h5 {
     font-family: 'Abril Fatface', cursive;
     font-size: 1.3em;
     color: red;
-    line-height: 1%;
+    margin-top: -0.9em;
 }
 
 nav {
@@ -96,6 +96,7 @@ section {
     font-family: 'Roboto Slab', serif;
     font-size: 1.5em;
     font-weight: 600;
+    text-align: left;
   }
   
 .more-articles section {

@@ -1,1 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 4em;
+}
+
+h2 {
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2em;
+}
+
+h5 {
+    font-family: 'Abril Fatface', cursive;
+    font-size: large;
+    color: red;
+}
+
+nav {
+    padding: 10px;
+    width: 100%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    list-style: none; 
+    display: flex; 
+    justify-content: center;
+}
+
+nav li {
+    display: inline;
+
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif; 
+    font-weight: 100;
+    font-size: 1em;
+    color: black;
+    margin-right: 25px;
+}
+
+nav a:hover {
+    color: darkred;
+}
+
+#main {
+    width: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+
+
+.more-articles {
+    text-align: center;
+}
+
+.more-articles h4 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 1em;
+  }
+  
+.more-articles section {
+    display: inline-block;
+    width: calc(50% - 1%); /* 50 percent of whats left after taking the second three percent. originally found as width: calc(50% - 10px); */
+    vertical-align: top;
+    text-align: left;
+  }
+  
+  .more-articles section img {
+    width: 100%;
+    height: auto;
+  }

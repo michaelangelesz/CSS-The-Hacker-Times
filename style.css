@@ -76,6 +76,7 @@ p {
     line-height: 150%;
     font-size: 1.2em;
     margin: 2.5% 2.5%;
+    text-align: justify;
 }
 
 
@@ -101,7 +102,6 @@ section {
     display: inline-block;
     width: calc(45% - 1%); /* 45 percent of whats left after taking the second-listed one percent. originally found as "width: calc(50% - 10px"); */
     vertical-align: top;
-    text-align: left;
     margin-left: 2.5%;
     margin-right: 2.5%;
   }

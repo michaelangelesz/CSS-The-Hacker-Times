@@ -79,11 +79,13 @@ p {
 .more-articles {
     text-align: center;
     border-top: 2px solid #EEEEEE;
+    border-bottom: 2px solid #EEEEEE;
 }
 
 section {
     margin-left: 1%;
     margin-right: 1%;
+    margin-bottom: 1.5%;
 }
 
 .more-articles h4 {
@@ -105,3 +107,5 @@ section {
     width: 100%;
     height: auto;
   }
+
+  
